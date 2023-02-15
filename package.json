@@ -1,0 +1,9 @@
+{
+  "scripts": {
+
+  },
+  "devDependencies": {
+    "async": "^3.2.4",
+    "testcafe": "^2.3.1"
+  }
+}
