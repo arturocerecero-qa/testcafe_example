@@ -1,6 +1,9 @@
 {
   "scripts": {
-
+    "test:chrome:headless": "testcafe chrome:headless ./frontend/test/",
+    "test:chrome": "testcafe chrome ./frontend/tests/",
+    "test:safari": "testcafe safari ./frontend/tests/",
+    "test:all": "testcafe all ./frontend/tests/"
   },
   "devDependencies": {
     "async": "^3.2.4",
